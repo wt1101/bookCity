@@ -1,0 +1,6 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Document</title><link rel="stylesheet" href="../css/text.css"><script src="../js/lib/require.js"></script><script>require(['../js/main'], function() {
+            require(['texts'])
+        })</script></head><body><!--阅读--><div class="wrap"><div class="menu"><div class="top"><a href="javascript:history.back()"><span>&lt;&nbsp;&nbsp;&nbsp;返回</span></a> <span>...</span></div><div class="c"></div><div class="bottom"><div class="colors"><p><span>字号</span> <button class="big">大</button> <button class="smile">小</button></p><p><span>颜色</span> <em></em> <em></em> <em></em> <em></em> <em></em></p></div><div class="num"><span class="up">上一章</span> <span><b class="b"></b>/<b class="sum"></b></span> <span class="down">下一章</span></div><div class="size"><dl><dt></dt><dd class="menu-btn">目录</dd></dl><dl><dt></dt><dd class="font">字体</dd></dl><dl><dt></dt><dd class="bgcolor">夜间</dd></dl><dl><dt></dt><dd>下载</dd></dl></div></div></div><div class="content"></div></div><script class="text" type="text/x-handlebars-template"><h3>{{t}}</h3>
+        {{#each p}}
+        <p>{{this}}</p>
+        {{/each}}</script></body></html>

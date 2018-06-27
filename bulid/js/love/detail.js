@@ -1,0 +1,1 @@
+define(["zepto","getUrl","text!message/detail.html","temp"],function(e,t,a,i){var l=t("id");console.log(l),e.ajax({url:"/api/detail?id="+l,dataType:"json",success:function(e){i(a,e,".wrap")}})});
