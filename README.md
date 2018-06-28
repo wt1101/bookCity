@@ -10,7 +10,7 @@ gulp + require + handlebars + ajax + sass + flex + canvas + Swiper
 
     git clone git@github.com:wt1101/bookCity.git
     npm install --save-dev
-    npm run build
+    gulp devserver
 目录结构
 
 bookCity
@@ -31,6 +31,13 @@ bookCity
     |    |    |---data3.json    //第三章的jsonp地址
     |    |    |---data4.json    //第四章的jsonp地址
     |    |-index.js            //数据接口
+    |——pic
+         |--1.png
+         |--2.png
+         |--3.png
+         |--4.png
+         |--5.png
+         |--6.png
     |——bulid
     |    |——login
     |    |    |——login.html //登录页
@@ -78,4 +85,9 @@ bookCity
     |-gulpfile.js
 部分截图
 
-image image image image image image
+![image]('./pic/1.png')
+![image]('./pic/2.png')
+![image]('./pic/3.png')
+![image]('./pic/4.png')
+![image]('./pic/5.png')
+![image]('./pic/6.png')
