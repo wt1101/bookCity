@@ -14,6 +14,7 @@ gulp + require + handlebars + ajax + sass + flex + canvas + Swiper
 目录结构
 
 bookCity
+
     |——mock
     |    |——login
     |    |    |---login.json    //用户数据
@@ -83,6 +84,7 @@ bookCity
     |    |    |-detail.html //详情页模板
     |    |-index.html           //首页
     |-gulpfile.js
+    
 部分截图
 
 ![image](./pic/1.png)
